@@ -1,10 +1,10 @@
 import React from "react";
-import footerCss from "../../../css/mainLayout/footer/footer.css";
+import    "../../../css/mainLayout/footer/footer.css";
+
+
 
 export default class Footer extends React.Component{ 
-   constructor(props){ 
-      super(props); 
-   }
+
    render(){ 
       return( 
         <div className = "container-fluid footer">
@@ -17,16 +17,16 @@ export default class Footer extends React.Component{
       </div>
       <div className = "col">
          <div className = "pull-right">
-            <a href="https://www.facebook.com/gianlucamazzeo/" target="_blank">
+            <a href="https://www.facebook.com/gianlucamazzeo/" >
                <i className = "fa fa-facebook-official fa-2x"></i>
             </a>
-            <a href="https://twitter.com/gianlucamazzeo" target="_blank">
+            <a href="https://twitter.com/gianlucamazzeo" >
                <i className = "fa fa-twitter fa-2x"></i>
             </a>
-            <a href="https://www.linkedin.com/in/paolodellaguzzo/" target="_blank">
+            <a href="https://www.linkedin.com/in/paolodellaguzzo/" >
                <i className = "fa fa-linkedin-square fa-2x"></i>
             </a>
-            <a href="https://plus.google.com/u/0/+paolodellaguzzo" target="_blank">
+            <a href="https://plus.google.com/u/0/+paolodellaguzzo">
                <i className = "fa fa-google-plus-official fa-2x"></i>
             </a>
          </div>

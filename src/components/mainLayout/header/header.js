@@ -1,16 +1,18 @@
 import React from "react";
-import headerCss from "../../../css/mainLayout/header/header.css";
+import  "../../../css/mainLayout/header/header.css";
 import Logo from "../../../images/notebook.png";
 
 export default class Header extends React.Component{ 
-   constructor(props){ 
-      super(props); 
-   }
-   render(){ 
+  
+   render(){
+   
+
+     
+
       return( 
         <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-success">
-           <a className="navbar-brand" href="#">
+           <a className="navbar-brand" href="javascript:void(0);">
               <img src={Logo} className = "logo-image"/>
            </a>
            <button
@@ -25,15 +27,15 @@ export default class Header extends React.Component{
            </button>
            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav mr-auto">
-                 <a className="nav-item nav-link" href="#">
+                 <a className="nav-item nav-link" href="/#home-top">
                     Home
                  </a>
-                 <a className="nav-item nav-link" href="#">What</a>
-                 <a className="nav-item nav-link" href="#">Who</a>
+                 <a className="nav-item nav-link">What</a>
+                 <a className="nav-item nav-link">Who</a>
               </div>
               <div className = "navbar-nav">
-                 <a className="nav-item nav-link" href="">Login</a>
-                 <a className="nav-item nav-link" href="">Registrazione</a>
+                 <a className="nav-item nav-link" href="/login">Login</a>
+                 <a className="nav-item nav-link">Registrazione</a>
               </div>
            </div>
         </nav>
